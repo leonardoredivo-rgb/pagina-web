@@ -1,4 +1,4 @@
-/* Reset básico e configurações de fonte */
+/*Fonte*/
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho */
+/*Cabeçalho*/
 header {
     background: linear-gradient(135deg, #b00020, #002b7f);
     color: white;
@@ -27,14 +27,14 @@ header h1 {
     letter-spacing: 1px;
 }
 
-/* Container Principal */
+/*Container principal*/
 .container {
     max-width: 900px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
 
-/* Cards Genéricos */
+/*Cards*/
 .card {
     background-color: #1e1e1e;
     border-radius: 8px;
@@ -53,7 +53,7 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Imagens */
+/*Imagens*/
 img {
     max-width: 100%;
     height: auto;
@@ -71,7 +71,7 @@ img {
     max-width: 200px;
 }
 
-/* Lista de Poderes */
+/*Lista de Poderes*/
 .lista-poderes {
     list-style: none;
     padding-left: 0;
@@ -85,7 +85,7 @@ img {
     border-left: 3px solid #002b7f;
 }
 
-/* Seção de Vilões (Grid System) */
+/*Seção de Vilões*/
 .viloes-container {
     background-color: #1e1e1e;
     padding: 1.5rem;
@@ -120,7 +120,7 @@ img {
     padding-bottom: 0.3rem;
 }
 
-/* Vídeo Responsivo */
+/*Vídeo*/
 .video-wrapper {
     position: relative;
     padding-bottom: 56.25%; /* Proporção 16:9 */
