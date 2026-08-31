@@ -4,62 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Homem-Aranha</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Conheça o amigo da vizinhança, o Homem-Aranha</h1>
 
-    <h2>Quem é o Homem-Aranha?</h2>
-    <p>O Homem-Aranha é um super-herói de Nova Iorque (Estados Unidos). Ele lança teias e tem uma agilidade muito avançada, podendo sentir ameaças mesmo quando elas estão longe. Mas por trás da mascara, o nome dele é Peter Parker que tem Mary Jane, sua namorada, Hary Osborn como seu melhor amigo e May Parker, sua tia.</p>
-    <img class="peter" src="Peter_Parker_from_MSM2_headshot.webp" alt="Peter Parker">
-    <h2>Traje</h2>
-    <p>O traje tradicional do aranha é um uniforme vermelho e azul com listras pretas, além de lançadores de teia que ficam debaixo do traje.</p>
-    <div class="traje">
-    <img src="yalanois-spiderman-7810368.svg" alt="traje do Homem-Aranha">
-    </div>
-    <h2>Poderes</h2>
-    <p>Como foi falado brevemente, Peter (ou Homem-Aranha) possui alguns poderes, dependendo do multiverso, alguns Homens-Aranha possui teias orgânicas, mas todos tem 4 poderes em comum:</p>
-    <li>
-        <ol>Força: Possui uma força fora do normal</ol>
-        <ol>Resistência: Muito difícil dele se machucar na batalha</ol>
-        <ol>Velocidade: Muito rápido</ol>
-        <ol>Agilidade/Sentido Aranha: Capaz de sentir ameaças antes delas chegarem</ol>
-    </li>
-    <h2>Principais vilões enfrentados</h2>
-    <p>O Homem-Aranha já derrotou vários inimigos, mas tem os vilões principais que são eles:</p>
-    <main>
-        <div class="abutre">
-            <h4>Abutre/Adrian Toomes</h4>
-            <p>Adrian é um idoso que usa um traje de pássaro para roubar bancos, ele não possui poderes, somente armas.</p>
-        </div>
-        <div class="lagarto">
-            <h4>Lagarto/Curt Connors</h4>
-            <p>O objetivo de Connors era recuperar o braço usando DNA de répteis, mas virou um lagarto humano com garras, presas e um rabo muito forte, além de ter um fator de cura, mais durabilidade e velocidade que um humano comum</p>
-        </div>
-        <div class="electro">
-            <h4>Electro/Max Dillon</h4>
-            <p>Max era um eletricista que sofreu um acidente elétrico e ganhou poderes de eletricidade, capaz de criar raios, faíscas e potentes rajadas de energia elétrica</p>
-        </div>
-        <div class="Rhino">
-            <h4>Rino/Aleksei Sytsevich</h4>
-            <p>Rino é rdeado com raios gama, tendo uma força maior quanto a do Hulk </p>
-        </div>
-        <div class="homemareia">
-            <h4>Homem-Areia/William Baker</h4>
-            <p>Conhecido como um bandido comum, William Baker sofreu um acidente, que fez seu corpo se transformar em areia e ele pode fazer qualquer coisa com a própria areia</p>
-        </div>
-        <div class="octopus">
-            <h4>Doutor Octopus/Otto Octavius</h4>
-            <p>Ele até é um humano normal, mas os seus tentáculos mecânicos dão para ele uma força aumentada, reflexos mais rápidos e a capacidade de derrotar vários inimigos de uma vez</p>
-        </div>
-        <div class="duende">
-            <h4>Duende Verde/Norman Osborn</h4>
-            <p>Norman, pai de Hary, ingetou o soro do duende, que faz ele possuir superforça e uma mentalidade frágil, além dele utilizar equipamentos como seu planador com lâminas e bombas e sua armadura</p>
-        </div>
-        <div class="venom">
-            <h4>Venom/Eddie Brock</h4>
-            <p>O Venom é a fusão de dois seres que juraram ódio ao Peter: o simbionte Klyntar e Eddie Brock, o venom possui alguns poderes quase iguais ao do aranha, como: projeção de "teias" de gosma, superforça e presas e garras venenosas</p>
-        </div>
-        <h2>Foi isso, espero ter gostado do blog!</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/W_SM-kp7oIs?si=MIE4wZ716Kejl2WZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <header>
+        <h1>Conheça o amigo da vizinhança, o Homem-Aranha</h1>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Quem é o Homem-Aranha?</h2>
+            <p>O Homem-Aranha é um super-herói de Nova Iorque (Estados Unidos). Ele lança teias e tem uma agilidade muito avançada, podendo sentir ameaças mesmo quando elas estão longe. Mas por trás da máscara, o nome dele é Peter Parker, que tem Mary Jane como namorada, Harry Osborn como melhor amigo e May Parker como sua tia.</p>
+            <img class="peter" src="Peter_Parker_from_MSM2_headshot.webp" alt="Peter Parker">
+        </section>
+
+        <section class="card">
+            <h2>Traje</h2>
+            <p>O traje tradicional do aranha é um uniforme vermelho e azul com listras pretas, além de lançadores de teia que ficam debaixo do traje.</p>
+            <div class="traje">
+                <img src="yalanois-spiderman-7810368.svg" alt="traje do Homem-Aranha">
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Poderes</h2>
+            <p>Como foi falado brevemente, Peter possui alguns poderes. Dependendo do multiverso, alguns Homens-Aranha possuem teias orgânicas, mas todos têm 4 poderes em comum:</p>
+            <ul class="lista-poderes">
+                <li><strong>Força:</strong> Possui uma força fora do normal</li>
+                <li><strong>Resistência:</strong> Muito difícil de se machucar na batalha</li>
+                <li><strong>Velocidade:</strong> Muito rápido</li>
+                <li><strong>Agilidade/Sentido Aranha:</strong> Capaz de sentir ameaças antes delas chegarem</li>
+            </ul>
+        </section>
+
+        <section class="viloes-container">
+            <h2>Principais vilões enfrentados</h2>
+            <p>O Homem-Aranha já derrotou vários inimigos, mas estes são os principais:</p>
+            
+            <div class="viloes-grid">
+                <article class="vilao-card abutre">
+                    <h4>Abutre / Adrian Toomes</h4>
+                    <p>Adrian é um idoso que usa um traje de pássaro para roubar bancos. Ele não possui poderes, somente armas.</p>
+                </article>
+
+                <article class="vilao-card lagarto">
+                    <h4>Lagarto / Curt Connors</h4>
+                    <p>O objetivo de Connors era recuperar o braço usando DNA de répteis, mas virou um lagarto humano com garras, presas, rabo forte e fator de cura.</p>
+                </article>
+
+                <article class="vilao-card electro">
+                    <h4>Electro / Max Dillon</h4>
+                    <p>Max era um eletricista que sofreu um acidente e ganhou poderes de eletricidade, capaz de criar raios e rajadas de energia.</p>
+                </article>
+
+                <article class="vilao-card rhino">
+                    <h4>Rino / Aleksei Sytsevich</h4>
+                    <p>Rino foi rodeado com raios gama, tendo uma força colossal comparável à do Hulk.</p>
+                </article>
+
+                <article class="vilao-card homemareia">
+                    <h4>Homem-Areia / William Baker</h4>
+                    <p>William sofreu um acidente que fez seu corpo se transformar em areia, permitindo moldar sua forma como quiser.</p>
+                </article>
+
+                <article class="vilao-card octopus">
+                    <h4>Doutor Octopus / Otto Octavius</h4>
+                    <p>Seus tentáculos mecânicos dão a ele força aumentada, reflexos rápidos e capacidade de combater vários inimigos.</p>
+                </article>
+
+                <article class="vilao-card duende">
+                    <h4>Duende Verde / Norman Osborn</h4>
+                    <p>Injetou o soro do duende, ganhando superforça e insanidade, além de usar seu planador e bombas de abóbora.</p>
+                </article>
+
+                <article class="vilao-card venom">
+                    <h4>Venom / Eddie Brock</h4>
+                    <p>A fusão do simbionte Klyntar com Eddie Brock. Possui superforça, projeção de teias orgânicas e garras venenosas.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="card video-section">
+            <h2>Foi isso, espero que tenha gostado do blog!</h2>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/W_SM-kp7oIs?si=MIE4wZ716Kejl2WZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
